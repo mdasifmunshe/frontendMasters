@@ -4,25 +4,114 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
     <title>Coffee Master</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <img
-        src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png"
-        alt="Coffee Master Logo"
-        srcset=""
-      />
-      <h3>Coffee Master</h3>
-    </header>
-    <main>
-      <div class="left-card">left-card</div>
-      <div class="right-card">right-card</div>
-    </main>
+    <div class="header-main">
+      <header>
+        <div class="header-logo">
+          <a href="./index.html">
+            <div class="header-logo-inner">
+              <img
+                src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png"
+                alt="Coffee Master Logo"
+              />
+              <p class="logo-text">Coffee Master</p>
+            </div>
+          </a>
+        </div>
+      </header>
+      <main>
+        <div class="main-section">
+          <div id="left-card" class="card">
+            <p class="card-title">ITEMS</p>
+            <div class="card-items">
+              <div class="item">
+                <div class="item-main">
+                  <p class="item-quantity">1x</p>
+                  <div class="order-items">
+                    <p class="item-title">Cappucino</p>
+                    <p class="item-addons">Lite foam</p>
+                  </div>
+                </div>
+                <p class="item-price">$3.35</p>
+              </div>
+              <div class="item">
+                <div class="item-main">
+                  <p class="item-quantity">1x</p>
+                  <div class="order-items">
+                    <p class="item-title">Cappucino</p>
+                    <p class="item-addons">Lite milk</p>
+                    <p class="item-addons">Double espresso</p>
+                  </div>
+                </div>
+                <p class="item-price">$3.85</p>
+              </div>
+              <div class="item">
+                <div class="item-main">
+                  <p class="item-quantity">2x</p>
+                  <div class="order-items">
+                    <p class="item-title">Croissant</p>
+                    <p class="item-addons">Butter</p>
+                  </div>
+                </div>
+                <p class="item-price">$4.90</p>
+              </div>
+            </div>
+          </div>
+          <div id="right-card" class="right-card">
+            <div class="card">
+              <p class="card-title">NAME</p>
+              <div class="input-group">
+                <label class="user-input-label" for="name"
+                  >Name for order</label
+                >
+                <input type="text" class="user-input" id="name" />
+              </div>
+            </div>
+            <div class="card">
+              <p class="card-title">PAYMENT</p>
+              <div class="input-group">
+                <label class="user-input-label" for="cc">Card number</label>
+                <input type="text" class="user-input" id="cc" />
+              </div>
+              <div class="input-group">
+                <label class="user-input-label" for="ccv">CCV number</label>
+                <input type="text" class="user-input short-input" id="ccv" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-bottom">
+          <div class="item-bottom-price">
+            <p>Subtotal:</p>
+            <p>$12.10</p>
+          </div>
+          <div class="item-bottom-price">
+            <p>Tax:</p>
+            <p>$1.08</p>
+          </div>
+          <div class="item-bottom-price">
+            <p>Total:</p>
+            <p>$13.18</p>
+          </div>
+          <div class="order-button">
+            <button class="checkout">Place order</button>
+          </div>
+        </div>
+      </main>
+    </div>
     <footer>
-      <div class="total"></div>
-      <button></button>
+      <div>
+        <p class="copyright">&copy; 2022 Coffee Master All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
