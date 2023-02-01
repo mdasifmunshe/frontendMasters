@@ -1,12 +1,10 @@
+# Getting Started with JavaScript, v2
+
 Course Link: https://frontendmasters.com/courses/web-development-v3/
-
-Course Title:
-## Getting Started with JavaScript, v2
-
-Initial Release Date: 1 February 2023
 
 JS Online Compiler: https://www.programiz.com/javascript/online-compiler/
 
+Initial Release Date: 1 February 2023
 
 # Books
 
@@ -20,6 +18,15 @@ JS Online Compiler: https://www.programiz.com/javascript/online-compiler/
 <img src="./images/YDKJS_ES6-and-Beyond.jpeg" width="100">&nbsp;
 
 -----
+
+## Titles
+
+* ["Up & Going"](./books/FirstEdition/You%20Don't%20Know%20JS_Up%20%26%20Going%20-%201st%20Edition.pdf)
+* Read online (free!): ["Scope & Closures"](scope\%20&\%20closures/README.md#you-dont-know-js-scope--closures)
+* Read online (free!): ["this & Object Prototypes"](this\%20&\%20object\%20prototypes/README.md#you-dont-know-js-this--object-prototypes)
+* Read online (free!): ["Types & Grammar"](types\%20&\%20grammar/README.md#you-dont-know-js-types--grammar)
+* Read online (free!): ["Async & Performance"](async\%20&\%20performance/README.md#you-dont-know-js-async--performance)
+* Read online (free!): ["ES6 & Beyond"](es6\%20&\%20beyond/README.md#you-dont-know-js-es6--beyond)
 
 ## You Don't Know JS Yet (book series) - 2nd Edition
 
