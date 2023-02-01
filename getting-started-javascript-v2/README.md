@@ -24,11 +24,11 @@ Initial Release Date: 1 February 2023
 I recommend reading the **first edition** books in this order:
 
 * [Up & Going](./books/FirstEdition/You%20Don't%20Know%20JS_Up%20%26%20Going%20-%201st%20Edition.pdf)
-* [Scope & Closures](scope\%20&\%20closures/README.md#you-dont-know-js-scope--closures)
-* [this & Object Prototypes](this\%20&\%20object\%20prototypes/README.md#you-dont-know-js-this--object-prototypes)
-* [Types & Grammar](types\%20&\%20grammar/README.md#you-dont-know-js-types--grammar)
-* [Async & Performance](async\%20&\%20performance/README.md#you-dont-know-js-async--performance)
-* [ES6 & Beyond](es6\%20&\%20beyond/README.md#you-dont-know-js-es6--beyond)
+* [Scope & Closures](./books/FirstEdition/You%20Don't%20Know%20JS_%20Scope%20%26%20Closures%20-%201st%20Edition.pdf)
+* [this & Object Prototypes](./books/FirstEdition/You%20Don't%20Know%20JS_%20this%20%26%20Object%20Prototypes%20-%201st%20Edition.pdf)
+* [Types & Grammar](./books/FirstEdition/You%20Don't%20Know%20JS_%20Types%20%26%20Grammar%20-%201st%20Edition.pdf)
+* [Async & Performance](./books/FirstEdition/You%20Don't%20Know%20JS_%20Async%20%26%20Performance%20-%201st%20Edition.pdf)
+* [ES6 & Beyond](./books/FirstEdition/You%20Don't%20Know%20JS_%20ES6%20%26%20Beyond%20-%201st%20Edition.pdf)
 
 -----
 
@@ -43,8 +43,8 @@ I recommend reading the **first edition** books in this order:
 
 I recommend reading the **second edition** books in this order:
 
-* [Get Started](get-started/README.md)
-* [Scope & Closures](scope-closures/README.md)
+* [Get Started](./books/SecondEdition/You%20Don't%20Know%20JS%20Yet_Get%20Started%20-%202nd%20Edition.pdf)
+* [Scope & Closures](./books/SecondEdition/You%20Don't%20Know%20JS%20Yet_Scope%20%26%20Closures%20-%202nd%20Edition.pdf)
 * Objects & Classes (draft stable)
 * Types & Grammar (draft in progress)
 * Sync & Async (not yet started)
