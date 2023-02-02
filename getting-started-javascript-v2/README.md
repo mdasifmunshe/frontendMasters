@@ -1,10 +1,12 @@
 # Getting Started with JavaScript, v2
 
-Course Link: https://frontendmasters.com/courses/web-development-v3/
+Course Link: https://frontendmasters.com/courses/getting-started-javascript-v2/
+
+Course Instructor: Kyle Simpson
 
 JS Online Compiler: https://www.programiz.com/javascript/online-compiler/
 
-Initial Release Date: 1 February 2023
+Initial Release Date: 01 February 2023
 
 # Books
 
