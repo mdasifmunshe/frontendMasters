@@ -17,22 +17,37 @@ const queryClient = new QueryClient({
 });
 
 const App = () => {
-  const adoptedPet = useState(null)
+  const adoptedPet = useState(null);
+
   return (
-    <BrowserRouter>
-      <QueryClientProvider client={queryClient}>
-        <AdoptedPetContext.Provider value={adoptedPet}>
-          <header>
-            <Link to={"/"}>Adopt Me!</Link>
-          </header>
-          <Routes>
-            <Route path="/details/:id" element={<Details />}></Route>
-            <Route path="/" element={<SearchParams />}></Route>
-          </Routes>
-        </AdoptedPetContext.Provider>
-      </QueryClientProvider>
-    </BrowserRouter>
-  )
+    <div
+      className="m-0 p-0"
+      style={{
+        background: "url(http://pets-images.dev-apis.com/pets/wallpaperC.jpg)",
+      }}
+    >
+      <BrowserRouter>
+        <QueryClientProvider client={queryClient}>
+          <AdoptedPetContext.Provider value={adoptedPet}>
+            <header className="flex justify-center w-[1100px] mx-auto my-0">
+              <Link to="/"
+                className="text-[#333] text-[3px] no-underline font-bold block brightness-150 w-[279px] h-[76px] overflow-hidden indent-[-9999px] my-[20px] mx-0"
+                style={{
+                  background: "url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-logo.png)",
+                }}
+              >
+                Adopt Me!
+              </Link>
+            </header>
+            <Routes>
+              <Route path="/details/:id" element={<Details />}></Route>
+              <Route path="/" element={<SearchParams />}></Route>
+            </Routes>
+          </AdoptedPetContext.Provider>
+        </QueryClientProvider>
+      </BrowserRouter>
+    </div>
+  );
 };
 
 const container = document.getElementById("root");
