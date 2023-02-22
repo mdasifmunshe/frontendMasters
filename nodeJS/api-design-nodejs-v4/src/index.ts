@@ -2,7 +2,8 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 
 import app from './server';
+import config from './config';
 
-app.listen(8080, () => {
-	console.log('Server On 8080');
+app.listen(config.port, () => {
+	console.log(`Server On ${config.port}`);
 });

@@ -25,7 +25,7 @@ export const SearchParams = () => {
   return (
     <div className="my-0 mx-auto w-11/12">
       <form
-        className="p-10 mb-10 rounded-lg bg-gray-200 shadow-lg flex flex-col justify-center items-center"
+        className="mb-10 flex flex-col items-center justify-center rounded-lg bg-gray-200 p-10 shadow-lg"
         onSubmit={(event) => {
           event.preventDefault();
           const formData = new FormData(event.target);
@@ -38,8 +38,8 @@ export const SearchParams = () => {
         }}
       >
         {adoptedPet ? (
-          <div className="pet image-container">
-            <img src={adoptedPet.images[0]} alt={adoptedPet.name} />
+          <div className="block overflow-hidden my-[25px] mx-0 border-b-2 border-[#333] w-[100px] h-[100px] float-left mt-0 mr-[20px] mb-0 ml-[10px]" style={{ clipPath: "circle(50% at 50% 50%)" }}>
+            <img src={adoptedPet.images[0]} alt={adoptedPet.name} className='w-full min-h-[100px]' />
           </div>
         ) : null}
         <label htmlFor="location">
@@ -76,7 +76,8 @@ export const SearchParams = () => {
             disabled={!breeds.length}
             id="breed"
             className="search-input grayed-out-disabled"
-            name="breed">
+            name="breed"
+          >
             <option />
             {breeds.map((breed) => (
               <option key={breed} value={breed}>
@@ -85,7 +86,7 @@ export const SearchParams = () => {
             ))}
           </select>
         </label>
-        <button className="rounded px-6 py-2 text-white hover:opacity-70 border-none bg-blue-500">
+        <button className="rounded border-none bg-blue-500 px-6 py-2 text-white hover:opacity-70">
           Submit
         </button>
       </form>

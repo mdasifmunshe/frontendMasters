@@ -29,11 +29,13 @@ const App = () => {
       <BrowserRouter>
         <QueryClientProvider client={queryClient}>
           <AdoptedPetContext.Provider value={adoptedPet}>
-            <header className="flex justify-center w-[1100px] mx-auto my-0">
-              <Link to="/"
-                className="text-[#333] text-[3px] no-underline font-bold block brightness-150 w-[279px] h-[76px] overflow-hidden indent-[-9999px] my-[20px] mx-0"
+            <header className="mx-auto my-0 flex w-[1100px] justify-center">
+              <Link
+                to="/"
+                className="my-[20px] mx-0 block h-[76px] w-[279px] overflow-hidden indent-[-9999px] text-[3px] font-bold text-[#333] no-underline brightness-150"
                 style={{
-                  background: "url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-logo.png)",
+                  background:
+                    "url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-logo.png)",
                 }}
               >
                 Adopt Me!

@@ -1,3 +1,3 @@
 export const Backdrop = (props) => (
-  <div className="backdrop" onClick={props.onCancel} /> // eslint-disable-line
+  <div className="z-10 h-[100vh] w-full" onClick={props.onCancel} /> // eslint-disable-line
 );
